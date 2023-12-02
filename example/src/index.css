@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.terminal-ui-root-custom{
+  background-color: rgb(93, 25, 110);
+  color : white;
+  padding : 5px;
+  font-size: 12px;
+  height : 100%;
+  overflow : auto;
+  font-family: monospace;
+}
+
+.terminal-ui-record-custom{
+  margin-top: 5px;
+  color: white;
+  text-align: left;
+}

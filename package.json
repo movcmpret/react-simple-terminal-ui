@@ -1,0 +1,44 @@
+{
+  "name": "react-simple-terminal-ui",
+  "version": "1.0.0",
+  "description": "a simple interactive terminal ui react component that allows you to programmatically emulate terminal behaviour.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./dist/styles.css": {
+      "import": "./dist/styles.css",
+      "require": "./dist/styles.css"
+    }
+  },
+  "scripts": {
+    "build": "tsc && cp src/*.css dist"
+  },
+  "keywords": [
+    "terminal",
+    "unix",
+    "console",
+    "cmd",
+    "xterm",
+    "cli"
+  ],
+  "author": "movcmpret",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.40",
+    "@types/react-dom": "^18.2.17",
+    "typescript": "^5.3.2"
+  },
+  "peerDependencies": {
+    "react": "16-18",
+    "react-dom": "16-18"
+  },
+  "dependencies": {
+    "98.css": "^0.1.20"
+  }
+}
