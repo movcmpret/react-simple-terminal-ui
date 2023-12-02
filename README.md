@@ -53,15 +53,15 @@ Name | Type | Function | Default | Optional
 ------------ | ------------- | -------------| ------------- | ------------
 `commands` | Array<Command> | Array of commands (see below) | - | 
 `style` | object | style for the root component | - | ✓
-`title` | string | a title that is shown in the title section of the window frames | - |  ✓
-`initialFeed` | Array<string|ReactNode> | Initial records that are shown before the first prompt | ✓
+`title` | string | a title that is shown in the title section of the window frames | prompt/unset |  ✓
+`initialFeed` | Array<string\|ReactNode> | Initial records that are shown before the first prompt | - | ✓
 `className` | string | className for the root component | - |  ✓
 `recordClassName` | string | className for each record component | - |  ✓
-`prompt` | string | The prompt string that is shown in the beginning of each new line | - |  ✓
-`commandNotFoundMessage` | (cmd: string) => string | custom message if the command was not found | - |  ✓
+`prompt` | string | The prompt string that is shown in the beginning of each new line | "$" |  ✓
+`commandNotFoundMessage` | (cmd: string) => string | custom message if the command was not found | (cmd) => `command '${cmd}' not found.` |  ✓
 `blinkerComponent` | ReactNode | define your own blinking-component | - |  ✓
 `blinkerChar` | string | the char that blinks (e.g. '_') | - |  ✓
-`frame` | "None", "Win98", "MacOs", "GnomeUbuntu" | The window frame that is going to be used | - |  ✓
+`frame` | "None", "Win98", "MacOs", "GnomeUbuntu" | The window frame that is going to be used | "None" |  ✓
 
 ### Command
 Name | Type | Function | Default | Optional
