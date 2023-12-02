@@ -34,7 +34,8 @@ function App() {
           <TerminalUi
             initialFeed={initialFeed}
             prompt='[root@movcmpret]$ '
-            commands={commands} />
+            commands={commands}
+           />
         </div>
 
       <div style={{width : "350px", height : "350px", marginTop : "30px"}}>
