@@ -21,7 +21,7 @@ type Command = {
 type TerminalUiProps = {
     style?: object,
     title?: string,
-    initialFeed?: Array<string>,
+    initialFeed?: Array<string|ReactNode>,
     className?: string,
     recordClassName?: string,
     commands: Array<Command>,
