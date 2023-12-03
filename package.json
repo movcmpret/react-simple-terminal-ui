@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "a simple interactive terminal ui react component that allows you to programmatically emulate terminal behaviour.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/movcmpret/react-simple-terminal-ui.git"
+  },
   "files": [
     "dist"
   ],
