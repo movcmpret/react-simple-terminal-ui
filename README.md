@@ -2,7 +2,7 @@
 
 > A simple react component to display an interactive terminal. You can define commands yourself, customize the styling and choose between different window frames.
 
-[![NPM](https://img.shields.io/npm/v/react-simple-terminal-ui.svg)](https://www.npmjs.com/package/react-animated-text-builders)
+[![NPM](https://img.shields.io/npm/v/react-simple-terminal-ui.svg)](https://www.npmjs.com/package/react-simple-terminal-ui)
 
 
 ### Checkout the [Demo](https://www.movcmpret.com/demo/simple-terminal-ui/index.html)
