@@ -8,8 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier', monospace; 
 }
 
 .terminal-ui-root-custom{
@@ -19,11 +18,11 @@ code {
   font-size: 12px;
   height : 100%;
   overflow : auto;
-  font-family: monospace;
+  font-family: 'Courier', monospace; 
 }
 
 .terminal-ui-record-custom{
-  margin-top: 5px;
+  margin-top: 10px;
   color: white;
   text-align: left;
 }

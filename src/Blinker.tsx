@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 
 
-const Blinker = ({ periodTime = 500, char = "▮"}) => {
+const Blinker = ({ periodTime = 500, char = "▌"}) => {
 
     const [showCursor, setShowCursor] = useState<boolean>(true)
     const cursorRef = useRef({ lastCursor: true })

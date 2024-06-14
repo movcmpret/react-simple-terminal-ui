@@ -5,7 +5,7 @@
     font-size: 14px;
     height : 100%;
     overflow : auto;
-    font-family: monospace;
+    font-family: 'Courier New', monospace; 
 }
 
 .terminal-ui-record{
@@ -22,7 +22,7 @@
     font-size: 14px;
     height : 100%;
     overflow : auto;
-    font-family: monospace;
+    font-family: 'Courier New', monospace; 
 }
 
 .terminal-ui-root-gnome-ubuntu{
@@ -32,7 +32,7 @@
     font-size: 14px;
     height : 100%;
     overflow : auto;
-    font-family: monospace;
+    font-family: 'Courier New', monospace; 
 }
 
 
@@ -141,4 +141,3 @@
     border-radius: 50%;
     display: inline-block;
   }
-  

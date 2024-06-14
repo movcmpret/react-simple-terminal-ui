@@ -1,6 +1,6 @@
 {
   "name": "react-simple-terminal-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple interactive terminal ui react component that allows you to programmatically emulate terminal behaviour.",
   "main": "dist/index.js",
   "repository": {
@@ -39,8 +39,8 @@
     "typescript": "^5.3.2"
   },
   "peerDependencies": {
-    "react": "16-18",
-    "react-dom": "16-18"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "98.css": "^0.1.20"

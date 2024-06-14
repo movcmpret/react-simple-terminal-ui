@@ -24,7 +24,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
-const Blinker = ({ periodTime = 500, char = "▮" }) => {
+const Blinker = ({ periodTime = 500, char = "▌" }) => {
     const [showCursor, setShowCursor] = (0, react_1.useState)(true);
     const cursorRef = (0, react_1.useRef)({ lastCursor: true });
     (0, react_1.useEffect)(() => {
